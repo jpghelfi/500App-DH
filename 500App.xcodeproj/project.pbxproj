@@ -19,6 +19,7 @@
 		13A70A941EF8918F00CE1DF5 /* PictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A70A931EF8918F00CE1DF5 /* PictureTableViewCell.swift */; };
 		13A70A961EF89ADC00CE1DF5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A70A951EF89ADC00CE1DF5 /* User.swift */; };
 		B9F01906491C307FFD9438EC /* Pods_500App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B14C5B00EE58A09E95C36B9 /* Pods_500App.framework */; };
+		E8E3B5251EF9E095006CBF48 /* DetailPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E3B5241EF9E095006CBF48 /* DetailPictureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		13A70A951EF89ADC00CE1DF5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		818E1B26E68B88D987D4C311 /* Pods-500App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-500App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-500App/Pods-500App.debug.xcconfig"; sourceTree = "<group>"; };
 		C04EE562E2F782BDBE204489 /* Pods-500App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-500App.release.xcconfig"; path = "Pods/Target Support Files/Pods-500App/Pods-500App.release.xcconfig"; sourceTree = "<group>"; };
+		E8E3B5241EF9E095006CBF48 /* DetailPictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPictureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				13A70A881EF8832000CE1DF5 /* WelcomeViewController.swift */,
 				13A70A8A1EF8848000CE1DF5 /* PicturesTableViewController.swift */,
+				E8E3B5241EF9E095006CBF48 /* DetailPictureViewController.swift */,
 			);
 			name = viewController;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				13A70A941EF8918F00CE1DF5 /* PictureTableViewCell.swift in Sources */,
 				13A70A731EF87DB000CE1DF5 /* AppDelegate.swift in Sources */,
 				13A70A891EF8832000CE1DF5 /* WelcomeViewController.swift in Sources */,
+				E8E3B5251EF9E095006CBF48 /* DetailPictureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.5.0)
+  - Kingfisher (3.10.2)
+  - TTMVC (0.4.0):
+    - Alamofire (~> 4.4)
+
+DEPENDENCIES:
+  - Kingfisher
+  - TTMVC
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  Kingfisher: 7297492bf8cec9b2e2dee3519f2219948580d98e
+  TTMVC: 98ba387598570679b93f2e95b4be07abe0790426
+
+PODFILE CHECKSUM: a8047826cca4ff4cca37a0b8d7552482c0a51f3d
+
+COCOAPODS: 1.2.1

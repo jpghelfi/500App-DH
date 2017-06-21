@@ -10,15 +10,32 @@ import UIKit
 
 class CommnetsTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    
+    @IBOutlet weak var userAvatar: UIImageView!
+    @IBOutlet weak var user: UILabel!
+    @IBOutlet weak var comment: UILabel!
+    
+    var theComment: Comment?
+    
+    func setup(commnets: Comment){
+        
+        theComment = commnets
+        if let aComment = theComment{
+            
+            user.text = aComment.user?.userName
+            comment.text = aComment.body
+            
+            if let avatar = aComment.user?.userPic{
+                
+                let avatarURL = URL(string: avatar)
+                userAvatar.kf.setImage(with: avatarURL)
+            }
+            
+            
+        }
+        
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+    
+    
 
 }

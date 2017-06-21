@@ -26,6 +26,8 @@ class DetailPictureViewController: UIViewController, UITableViewDelegate, UITabl
         self.tableView.dataSource = self
         self.tableView.delegate = self
         
+        drawHeader()
+        
         let commnentsService = CommentService()
         
         if let picID = picture?.id{
@@ -56,10 +58,32 @@ class DetailPictureViewController: UIViewController, UITableViewDelegate, UITabl
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
+        let cell = self.tableView.dequeueReusableCell(withIdentifier: "commentsCell", for: indexPath)
         
+        if let aCell = cell as? CommnetsTableViewCell, let comment = picture?.comments?[indexPath.row]{
+            
+            aCell.setup(commnets: comment)
+            
+        }
         
+        return cell
     }
 
+    func drawHeader(){
+        
+        if let userAvatar = self.picture?.user?.userPic,
+            let pic = self.picture?.smallPictureURL {
+            
+            let avatarURL = URL(string: userAvatar )
+            self.avatarImageView.kf.setImage(with: avatarURL)
+            
+            let picURL = URL(string: pic )
+            self.imageView.kf.setImage(with: picURL)
+            
+        }
+        
+        self.nameLabel.text = self.picture?.user?.userName
+    }
     
     
 }

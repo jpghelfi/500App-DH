@@ -32,7 +32,6 @@ class PicturesTableViewController: UITableViewController {
         }
     }
 
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -53,10 +52,22 @@ class PicturesTableViewController: UITableViewController {
             pictureCell.setup(aPicture: picture)
             
         }
-        
-        
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if let controller = self.navigationController?.storyboard?.instantiateViewController(withIdentifier: "detailPictureViewController") as? DetailPictureViewController{
+            
+            
+            controller.picture = self.pictureArray[indexPath.row]
+            
+            self.navigationController?.pushViewController(controller, animated: true)
+        }
+        
         
     }
+    
+    
 
 }

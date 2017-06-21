@@ -139,7 +139,7 @@
         <!--Detail Picture View Controller-->
         <scene sceneID="ViB-eK-6lq">
             <objects>
-                <viewController id="MD1-Qz-azb" customClass="DetailPictureViewController" customModule="_00App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detailPictureViewController" id="MD1-Qz-azb" customClass="DetailPictureViewController" customModule="_00App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kNy-qF-UzD"/>
                         <viewControllerLayoutGuide type="bottom" id="gUX-Q4-fYH"/>

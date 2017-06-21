@@ -11,12 +11,14 @@ import TTMVC
 
 public class Picture: TTGenericDTO {
     
+    var id: NSNumber?
     var user: User?
     var userCameraName: String?
     var smallPictureURL: String?
     var bigPictureURL: String?
     var city: String?
     var country: String?
+    var comments: [Comment]?
     
 
         

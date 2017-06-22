@@ -19,6 +19,7 @@ public class Picture: TTGenericDTO {
     var city: String?
     var country: String?
     var comments: [Comment]?
+    var name: String?
     
 
         

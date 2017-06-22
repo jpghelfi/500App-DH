@@ -23,8 +23,12 @@ class DetailPictureViewController: UIViewController, UITableViewDelegate, UITabl
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationItem.title = picture?.name
+        
         self.tableView.dataSource = self
         self.tableView.delegate = self
+        
+        self.edgesForExtendedLayout = []
         
         drawHeader()
         
@@ -85,5 +89,8 @@ class DetailPictureViewController: UIViewController, UITableViewDelegate, UITabl
         self.nameLabel.text = self.picture?.user?.userName
     }
     
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 0.0
+    }
     
 }

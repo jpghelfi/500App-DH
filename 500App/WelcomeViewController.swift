@@ -14,6 +14,7 @@ class WelcomeViewController: UIViewController {
     @IBOutlet weak var searchTextFiled: UITextField!
     
     
+    
     @IBAction func searchButton(_ sender: UIButton) {
         if let controller = self.storyboard?.instantiateViewController(withIdentifier: "picturesController") as? PicturesTableViewController{
             
@@ -26,5 +27,10 @@ class WelcomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+//        self.navigationController?.navigationBar.shadowImage = UIImage()
+//        self.navigationController?.navigationBar.isTranslucent = true
+        
+//        self.navigationController?.navigationBar.barTintColor = UIColor.black.withAlphaComponent(0.95)
     }
 }

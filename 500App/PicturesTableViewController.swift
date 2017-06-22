@@ -17,6 +17,8 @@ class PicturesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+       
+        
         let pictureService = PictureService()
         
         if let theQuery = userQuery, let theSize = userImageSize{

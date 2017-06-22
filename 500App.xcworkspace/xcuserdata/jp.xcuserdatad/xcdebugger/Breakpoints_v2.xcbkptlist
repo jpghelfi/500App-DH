@@ -25,22 +25,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "500App/DetailPictureViewController.swift"
-            timestampString = "519706813.369713"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "500App/CommnetsTableViewCell.swift"
             timestampString = "519707079.792509"
             startingColumnNumber = "9223372036854775807"
@@ -74,7 +58,7 @@
                   moduleName = "500App"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jp/Documents/Curso%20iOS/500App/500App/CommnetsTableViewCell.swift"
-                  timestampString = "519707379.001127"
+                  timestampString = "519757462.555203"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "28"
@@ -89,7 +73,7 @@
                   moduleName = "500App"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jp/Documents/Curso%20iOS/500App/500App/CommnetsTableViewCell.swift"
-                  timestampString = "519707379.004109"
+                  timestampString = "519757462.558154"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "28"
@@ -122,7 +106,7 @@
                   moduleName = "500App"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jp/Documents/Curso%20iOS/500App/500App/CommnetsTableViewCell.swift"
-                  timestampString = "519707379.010843"
+                  timestampString = "519757462.56525"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "23"
@@ -137,7 +121,7 @@
                   moduleName = "500App"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jp/Documents/Curso%20iOS/500App/500App/CommnetsTableViewCell.swift"
-                  timestampString = "519707379.013676"
+                  timestampString = "519757462.568156"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "23"
@@ -170,77 +154,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "500App/DetailPictureViewController.swift"
-            timestampString = "519707115.606181"
+            timestampString = "519757377.754395"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
-            landmarkName = "drawHeader()"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "500App/DetailPictureViewController.swift"
-            timestampString = "519707136.104354"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "drawHeader()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "500App/DetailPictureViewController.swift"
-            timestampString = "519707194.695518"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
-            landmarkName = "drawHeader()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "_00App.DetailPictureViewController.drawHeader () -&gt; ()"
-                  moduleName = "500App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jp/Documents/Curso%20iOS/500App/500App/DetailPictureViewController.swift"
-                  timestampString = "519707379.037001"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "74"
-                  endingLineNumber = "74"
-                  offsetFromSymbolStart = "22">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "_00App.DetailPictureViewController.drawHeader () -&gt; ()"
-                  moduleName = "500App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jp/Documents/Curso%20iOS/500App/500App/DetailPictureViewController.swift"
-                  timestampString = "519707379.039952"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "74"
-                  endingLineNumber = "74"
-                  offsetFromSymbolStart = "520">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

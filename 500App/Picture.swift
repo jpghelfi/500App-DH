@@ -17,7 +17,6 @@ public class Picture: TTGenericDTO {
     var smallPictureURL: String?
     var bigPictureURL: String?
     var city: String?
-    var country: String?
     var comments: [Comment]?
     var name: String?
     

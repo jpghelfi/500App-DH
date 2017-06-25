@@ -13,6 +13,7 @@ class User: TTGenericDTO{
     
     var userName: String?
     var userPic: String?
+    var country: String?
     
     override func loadFromDictionary(_ dictionary: [String : AnyObject]) {
         super.loadFromDictionary(dictionary)

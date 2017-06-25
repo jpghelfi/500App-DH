@@ -87,6 +87,7 @@ class DetailPictureViewController: UIViewController, UITableViewDelegate, UITabl
         }
         
         self.nameLabel.text = self.picture?.user?.userName
+        self.countryLabel.text = self.picture?.user?.country
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
